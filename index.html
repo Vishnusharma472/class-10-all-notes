@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>PDF Store</h1>
+    <nav>
+      <a href="#free-pdfs">Free PDFs</a>
+      <a href="#paid-pdfs">Paid PDFs</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Free PDFs Section -->
+    <section id="free-pdfs">
+      <h2>Free PDFs</h2>
+      <div class="pdf-item">
+        <h3>Free PDF 1</h3>
+        <p>Description of the free PDF file.</p>
+        <a href="path/to/free-pdf1.pdf" download>Download</a>
+      </div>
+      <div class="pdf-item">
+        <h3>Free PDF 2</h3>
+        <p>Description of the free PDF file.</p>
+        <a href="path/to/free-pdf2.pdf" download>Download</a>
+      </div>
+    </section>
+
+    <!-- Paid PDFs Section -->
+    <section id="paid-pdfs">
+      <h2>Paid PDFs</h2>
+      <div class="pdf-item">
+        <h3>Paid PDF 1</h3>
+        <p>Description of the paid PDF file.</p>
+        <button onclick="purchasePDF('Paid PDF 1')">Buy Now</button>
+      </div>
+      <div class="pdf-item">
+        <h3>Paid PDF 2</h3>
+        <p>Description of the paid PDF file.</p>
+        <button onclick="purchasePDF('Paid PDF 2')">Buy Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 PDF Store. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function purchasePDF(pdfName) {
+      alert(To purchase ${pdfName}, please contact us.);
+    }
+  </script>
+</body>
+</html>
